@@ -24,7 +24,7 @@ class MainWindow(QMainWindow):
         pen = QPen(Qt.black, 1)
         painter.setPen(pen)
         painter.setBrush(Qt.yellow)
-        while k < 3:
+        while k < 4:
             a = randint(1, 200)
             painter.drawEllipse(randint(0, 800), randint(0, 500), a, a)
             k += 1
